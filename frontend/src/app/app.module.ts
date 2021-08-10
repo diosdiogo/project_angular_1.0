@@ -7,11 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { NavComponent }  from '@angular/material/sidenav';
+import { FooterComponent } from './components/template/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
